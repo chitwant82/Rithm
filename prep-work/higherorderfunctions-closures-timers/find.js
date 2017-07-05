@@ -1,6 +1,8 @@
-// Write a function called find. It should take in an array and a callback and return the first value found in the array that matches the condition.
+// Write a function called find. It should take in an array and a callback and return
+// the first value found in the array that matches the condition.
 
-// Write a function called findIndex. It should take in an array and a callback and return the index of first value found in the array that matches the condition.
+// Write a function called findIndex. It should take in an array and a callback and
+// return the index of first value found in the array that matches the condition.
 
 function find(arr, fn) {
     for (var i=0; i < arr.length; i++) {

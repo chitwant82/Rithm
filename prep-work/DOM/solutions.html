@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+    function myFunction() {
+      // var solution; // global
+      // uncomment each section at a time to execute
+
+      // 1)
+      // solution = document.getElementById("container");
+      // console.log(solution);
+
+      // 2)
+      // solution = document.querySelector("#container");
+      // console.log(solution);
+
+      // 3)
+      // solution = document.querySelectorAll(".second");
+      // console.log(solution);
+
+      // 4)
+      // solution = document.querySelector("#container ol .third");
+      // console.log(solution);
+
+      // 5)
+      // solution = document.getElementById("container");
+      // solution.innerText = "Hello!";
+
+      // 6) 7)
+      // var solution = document.querySelector(".footer");
+      // solution.classList.add("main");
+      // console.log(solution.classList);
+      // solution.classList.remove("main");
+      // console.log(solution.classList);
+
+      // 8) 9) 10)
+      // solution  = document.createElement("li");
+      // solution.innerText = "four";
+      // var ul = document.querySelector("#container ul");
+      // ul.appendChild(solution);
+      // console.log(ul);
+
+      // 11)
+      // solution = document.querySelectorAll("#container ol li");
+      // for(var i=0; i <solution.length; i++) {
+      //   solution[i].style.backgroundColor = "green";
+      // }
+
+      // 12)
+      // solution = document.querySelector(".footer");
+      // document.body.removeChild(solution);
+      // console.log(document.body);
+    }
+    </script>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+        <ul>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ul>
+        <ol>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ol>
+        <button type="button" onclick="myFunction()">Try it</button>
+    </section>
+    <div class="footer">
+    </div>
+</body>
+</html>

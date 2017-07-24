@@ -1,0 +1,4 @@
+h1 + press tab
+div>p>section>h1{Nice!} + press tab
+ul{outside}>li{inside}*4 + press tab
+p{sibling 1}+div{sibling 2}+p{parent}>div{child}>div{grandchild} + press tab

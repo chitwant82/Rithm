@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+    <title>CSS Challenge 4</title>
+    <style>
+      body, html {
+        background-color: #476841;
+        padding: 0;
+        margin: 0;
+        /*margin-top: 0px;*/
+        /*#61875d*/
+      }
+
+      /*#header {
+        top: -20px;
+        margin-top: 0px;
+      }*/
+
+      #nav {
+        /*#73a56b*/
+        background-color: #329920;
+        border-bottom: #f7f6de dashed;
+        /*padding-top: 2px;
+        padding-bottom: 2px;
+        margin-bottom: 0px;*/
+      }
+
+      #nav ul {
+        padding-top: 5px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+        margin-left: 20px;
+
+      }
+
+      #header h1 {
+        margin-top: 0px;
+        text-align: right;
+        padding-right: 30px;
+        padding-top: 10px;
+      }
+
+      #wrap {
+        width: 80%;
+        margin-left: 10%;
+        background-color: #9da56b;
+        /*margin-top: 0px;
+        padding-top: 0px;*/
+      }
+
+      #nav li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 40px;
+        /*margin-left: 10%;*/
+      }
+
+      #content {
+        float:left;
+        background: #6e9168;
+        width: 80%;
+
+      }
+
+      #content li {
+        list-style: none;
+        text-align: center;
+      }
+
+      #content p {
+        text-align: left;
+        padding-left: 10px;
+      }
+
+      #content h1 {
+        padding-left: 10px;
+      }
+
+      #content li:first-letter {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 110%;
+      }
+
+      #sidebar {
+        float: right;
+        background: #9da56b;
+        width: 20%;
+      }
+
+      #sidebar ul {
+        text-align: left;
+      }
+
+      #sidebar h2 {
+        padding-left: 10px;
+      }
+
+      #footer {
+        clear:both;
+        background: #6e9168;
+        width: 80%;
+      }
+
+      #footer p {
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <h1>Shakespear.net</h1>
+      </div>
+      <div id="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Writings</a></li>
+          <li><a href="#">Sonnets</a></li>
+          <li><a href="#">Life Story</a></li>
+          <li><a href="#">About Shakespear.net</a></li>
+        </ul>
+      </div>
+      <div id="sidebar">
+        <h2>Sonnet Index</h2>
+        <ul>
+          <li><a href="#">Sonnet #1</a></li>
+          <li><a href="#">Sonnet #6</a></li>
+          <li><a href="#">Sonnet #11</a></li>
+          <li><a href="#">Sonnet #15</a></li>
+          <li><a href="#">Sonnet #18</a></li>
+        </ul>
+      </div>
+      <div id="content">
+        <h1>Shakespeare's Sonnet #18</h1>
+        <p>This is one of the most famous of the sonnets. It is referenced
+            in the film Dead Poets Society and gave names to the band The
+            Darling Buds and the book and television series The Darling Buds
+            of May. Read it and weep!</p>
+        <ul>
+          <li>Shall I compare thee to a summer's day?</li>
+          <li>Thou art more lovely and more temperate:</li>
+          <li>Rough winds do shake the darling buds of May,</li>
+          <li>And summer's lease hath all too short a date:</li>
+          <li>Sometime too hot the eye of heaven shines,</li>
+          <li>And often is his gold complexion dimm'd,</li>
+          <li>And every fair from fair sometime declines,</li>
+          <li>By chance, or nature's changing course untrimm'd:</li>
+          <li>But thy eternal summer shall not fade,</li>
+          <li>Nor lose possession of that fair thou ow'st,</li>
+          <li>Nor shall death brag thou wander'st in his shade,</li>
+          <li>When in eternal lines to time thou grow'st,</li>
+          <li>So long as men can breathe, or eyes can see,</li>
+          <li>So long lives this, and this gives life to thee.</li>
+        </ul>
+      </div>
+      <div id="footer">
+        <p class="copyright">See the 
+        <a href="http://en.wikipedia.org/wiki/Shakespeare%27s_Sonnets">
+        Shakespeare's sonnets</a> Wikipedia article for more information
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

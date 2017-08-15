@@ -1,0 +1,19 @@
+Given a list [("name", "Elie"), ("job", "Instructor")], create a dictionary that looks like this {'job': 'Instructor', 'name': 'Elie'} (the order does not matter).
+
+1) {i[0]: i[1] for i in [("name", "Elie"), ("job", "Instructor")]}
+
+{k: v for (k,v) in [("name", "Elie"), ("job", "Instructor")]}
+
+2) 
+list1 = ["CA", "NJ", "RI"]
+list2 = ["California", "New Jersey", "Rhode Island"]
+{list1[i]: list2[i] for i in range(0, len(list1))}
+
+{k: v for (k,v) in zip(["CA", "NJ", "RI"],["California", "New Jersey", "Rhode Island"])}
+
+Create a dictionary with the key as a vowel in the alphabet and the value as 0. Your dictionary should look like this {'a': 0, 'e': 0, 'i': 0, 'o': 0, 'u': 0}. (Do not use the fromkeys method).
+3) {val: 0 for val in ['a','e','i','o','u']}
+
+
+Create a dictionary starting with the key of the position of the letter and the value as the letter in the alphabet. You should return something like this (Hint - use chr(65) to get the first letter):
+4) {val-64: chr(val) for val in range(65, 91)}
